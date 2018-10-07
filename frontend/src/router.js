@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import ExampleComponent from '@/components/ExampleComponent.vue'
+import WikiPages from '@/components/WikiPages.vue'
+import Form from '@/components/Form.vue'
 
 const routes = [
-  {path: '*', component: ExampleComponent}
+  {path: '*', component: WikiPages},
+  {path: '/new-page', component: Form},
 ]
 
 Vue.use(VueRouter)
