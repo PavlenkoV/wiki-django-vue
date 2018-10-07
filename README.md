@@ -10,8 +10,8 @@ WikiPages
 
 ## Development
 
-+ edit .env
++ edit `.env`
 + run `docker-compose up --build`
-+ open 0.0.0.0:8000  (**important:** for Cross-Origin Resource Sharing (CORS) )
++ open `0.0.0.0:8000`  (**important:** for Cross-Origin Resource Sharing (CORS) )
 
 ![](wikipages.gif)
