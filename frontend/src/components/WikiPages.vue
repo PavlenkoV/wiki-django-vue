@@ -103,9 +103,7 @@
         text: '',
         page_id: '',
         page_url: '',
-        current_page: '',
-        savedAlert: false,
-        updatedAlert: false
+        current_page: ''
       }
     },
     computed: {

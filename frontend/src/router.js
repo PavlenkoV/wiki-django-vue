@@ -5,8 +5,7 @@ import WikiPages from '@/components/WikiPages.vue'
 import Form from '@/components/Form.vue'
 
 const routes = [
-  {path: '*', component: WikiPages},
-  {path: '/new-page', component: Form},
+  {path: '*', component: WikiPages}
 ]
 
 Vue.use(VueRouter)
