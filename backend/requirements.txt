@@ -44,6 +44,7 @@ Werkzeug==0.14.1
 
 
 djangorestframework==3.8.2
+django-rest-swagger
 
 
 
