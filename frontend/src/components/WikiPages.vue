@@ -112,8 +112,9 @@
       },
     },
     mounted: function() {
-      this.getWikiPages()
-    },
+        this.getWikiPages();
+        // this.getNode()
+      },
     methods: {
       getWikiPages: function() {
         axios.get(API_URL)
@@ -125,6 +126,19 @@
             console.log(error);
           });
       },
+      // getNode: function() {
+      //   var isBrowser = new Function("try {return this===window;}catch(e){ return false;}");
+      //   if (isBrowser()) console.log("running under browser");
+      //   var isNode=new Function("try {return this===global;}catch(e){return false;}");
+      //   if(isNode()) console.log("running under node.js");
+      //
+      //   console.log(window);
+      //   if (typeof window === 'undefined') {
+      //     console.log('Node');
+      //   } else {
+      //     console.log('Browser');
+      //   }
+      // },
       sendInfo: function(page) {
         this.title = page.title;
         this.text = page.text;
