@@ -14,6 +14,7 @@ class WikiPageSerializer(serializers.ModelSerializer):
 
 class HelloNameSerializer(serializers.Serializer):
     name = serializers.CharField(max_length=200)
+    # name = serializers.CharField(required=True, read_only=False, max_length=200)
 
     def validate_name(self, name):
         """
