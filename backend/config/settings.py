@@ -35,6 +35,9 @@ THIRD_PARTY_APPS = [
     'django_extensions',
 
     'rest_framework_swagger',
+
+    'graphene_django',
+
 ]
 
 LOCAL_APPS = [
