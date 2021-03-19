@@ -45,7 +45,7 @@ Werkzeug==0.14.1
 graphene_django
 
 
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 django-rest-swagger
 coreapi
 django-querycount
